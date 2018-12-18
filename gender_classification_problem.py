@@ -2,6 +2,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
+from sklearn.linear_model import Perceptron
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
@@ -18,6 +19,7 @@ classifiers = {
 	'Random Forest': RandomForestClassifier(),
 	'K-Neighbors': KNeighborsClassifier(),
 	'SVM': SVC(),
+	'Perceptron Classifier': Perceptron(),
 	'Logistic Regression': LogisticRegression(),
 }
 
